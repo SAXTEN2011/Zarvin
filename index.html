@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,800,900' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Cantarell:700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1 class="maintext text-center"><b>How Can I Help You?</b></h1>
+<h6 class="maintext text-center" id="subtext">Just Say What You Need.</h6>
+<br>
+<h2 class="suggestion text-center"></h2>
+</body>
+<style>
+    body, html{
+    height: 100%;
+        background-color: #00B7FF;
+    }
+    .maintext{
+        color: white;
+        font-size: 5em;
+        font-family: 'Exo 2', "Impact";
+    }
+    #subtext{
+        font-size: 2em;
+    }
+    .suggestion{
+        display: none;
+        font-family: 'Cantarell', "Impact";
+        color: white;
+
+
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        setInterval(function(){
+            $(".suggestion").fadeOut(1000);
+            var rand = Math.floor(Math.random()*10 + 1);
+            setTimeout(function(){
+
+
+            if(rand == 1){
+                $(".suggestion").html('"Google Mountain Chicken"');
+
+            }else  if(rand == 2){
+                $(".suggestion").html('"Whats the weather like?"');
+            }else  if(rand == 3){
+                $(".suggestion").html('"Go to youtube.com"');
+            }else  if(rand == 4){
+                $(".suggestion").html('"Show me waffles"');
+            }else  if(rand == 5){
+                $(".suggestion").html('"YouTube Crash Course Biology"');
+            }else  if(rand == 6){
+                $(".suggestion").html('"Videos about cellular respiration"');
+            }else  if(rand == 7){
+                $(".suggestion").html('"What is a mountain chicken"');
+            }else  if(rand == 8){
+                $(".suggestion").html('"97 plus 16"');
+            }else  if(rand == 9){
+                $(".suggestion").html('"More about this"');
+            }else  if(rand == 10){
+                $(".suggestion").html('');
+            }
+            }, 1000);
+            console.log(rand);
+            $(".suggestion").fadeIn(1000);
+
+
+        }, 10000)
+
+
+    });
+</script>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.1.0/annyang.min.js"></script>
+<script>
+    if (annyang) {
+        // Let's define our first command. First the text we expect, and then the function it should call
+        var commands = {
+            'More About This': function() {
+                $("body").append('<h6 class="maintext text-center" id="subtext">Zarvin is a personal assistant, controlled by voice, programmed by Aaron</h6>');
+
+            },
+
+            "Go to *site": function(site){
+                window.location.assign("https://" + site);
+            },
+            "Whats *anythingelse": function(anythingelse){
+                var term = anythingelse.replace("+", "plus");
+                var term = term.replace("+", "minus");
+                var term = term.replace(" ", "+");
+                window.location.assign("https://www.google.com/search?q=" + term);
+            },
+            "What is *anythingelse1": function(anythingelse1){
+                var term = anythingelse.replace("+", "plus");
+                var term = term.replace("+", "minus");
+                var term = term.replace(" ", "+");
+                window.location.assign("https://www.google.com/search?q=" + term);
+            },
+            "google *anythingelse2": function(anythingelse2){
+                var term = anythingelse2.replace("+", "plus");
+                var term = term.replace("+", "minus");
+                var term = term.replace(" ", "+");
+                window.location.assign("https://www.google.com/search?q=" + term);
+            },
+            "youtube *vid": function(vid){
+                var term = vid.replace("+", "plus");
+                var term = term.replace("+", "minus");
+                var term = term.replace(" ", "+");
+                window.location.assign("https://www.youtube.com/results?search_query=" + term);
+            },
+            "video(s) about *vid2": function(vid2){
+                var term = vid2.replace("+", "plus");
+                var term = term.replace("+", "minus");
+                var term = term.replace(" ", "+");
+                window.location.assign("https://www.youtube.com/results?search_query=" + term);
+            }
+        };
+
+        // Add our commands to annyang
+        annyang.addCommands(commands);
+
+        // Start listening. You can call this here, or attach this call to an event, button, etc.
+        annyang.start();
+    }
+</script>
+
+</html>
