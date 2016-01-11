@@ -129,6 +129,9 @@
                 window.location.assign("https://www.google.com/search?q=" + term);
             },
             "youtube *vid": function(vid){
+                if(vid == "subscriptions" || vid == "subs"){
+                    window.location.assign("https://www.youtube.com/feed/subscriptions");
+                }
                 var term = vid.replace("+", "plus");
                 var term = term.replace("+", "minus");
                 var term = term.replace(" ", "+");
