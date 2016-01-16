@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac221bcc-29fd-4b1e-8881-cf8e610c09d3" name="Default" comment="Added Base Code&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/outsiters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fanfare3.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minuteHand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VertCenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/band.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bandtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calbday.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/essay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fun.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hacktest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libtest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teleprompter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Zarvin.iws" />
@@ -37,8 +69,8 @@
       <file leaf-file-name="outsiters.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/outsiters.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31264368">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.254023">
+              <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -234,7 +266,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452961526832</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Base Code&#10;">
+      <created>1452961553600</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1452961553600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -324,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/outsiters.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31264368">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.254023">
+          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
           <folding />
         </state>
       </provider>
