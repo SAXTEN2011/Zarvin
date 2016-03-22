@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac221bcc-29fd-4b1e-8881-cf8e610c09d3" name="Default" comment="Added Base Code&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlay.html" afterPath="$PROJECT_DIR$/overlay.html" />
-    </list>
+    <list default="true" id="ac221bcc-29fd-4b1e-8881-cf8e610c09d3" name="Default" comment="Added Base Code&#10;" />
     <ignored path="Zarvin.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="overlay.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/overlay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4684271">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.29276693">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -419,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/overlay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4684271">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.29276693">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
