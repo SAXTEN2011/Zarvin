@@ -30,6 +30,10 @@ io.on('connection', function(socket){
     socket.on('disconnect', function() {
         console.log('user disconnected');
     });
+    socket.on('call', function(message){
+        io.emit("ping", message);
+        console.log(message + "");
+    });
 
 });
 

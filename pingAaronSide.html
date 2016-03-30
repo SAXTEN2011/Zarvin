@@ -49,4 +49,11 @@
         font-size: 4em;
     }
 </style>
+<script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
+<script>
+    var socket = io();
+    socket.on("ping", function(message){
+        $("body").css("background-color", "red");
+    });
+</script>
 </html>

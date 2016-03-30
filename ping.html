@@ -49,20 +49,34 @@
         font-size: 4em;
     }
 </style>
+<script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
 <script>
+
+</script>
+<script>
+    var socket = io();
     if (annyang) {
         // Let's define our first command. First the text we expect, and then the function it should call
         var commands = {
             'Aaron': function() {
-                alert("Aaron");
 
-            },
-            'Administrator Control': function() {
-                alert("Admin");
+                socket.emit("call", "Aaron");
 
             },
             'Test': function() {
-                alert("Admin");
+                socket.emit("call", "Test");
+
+            },
+            'Ping': function() {
+                socket.emit("call", "Ping");
+
+            },
+            'Administrator Control': function() {
+                socket.emit("call", "Admin");
+
+            },
+            'Come here': function() {
+                socket.emit("call", "Come here");
 
             }
         };
