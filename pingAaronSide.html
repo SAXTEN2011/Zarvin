@@ -54,6 +54,9 @@
     var socket = io();
     socket.on("ping", function(message){
         $("body").css("background-color", "red");
+        setTimeout(function(){
+            $("body").css("background-color", "#00B7FF");
+        }, 3000);
     });
 </script>
 </html>

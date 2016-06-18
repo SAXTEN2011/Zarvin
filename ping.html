@@ -55,37 +55,8 @@
 </script>
 <script>
     var socket = io();
-    if (annyang) {
-        // Let's define our first command. First the text we expect, and then the function it should call
-        var commands = {
-            'Aaron': function() {
-
-                socket.emit("call", "Aaron");
-
-            },
-            'Test': function() {
-                socket.emit("call", "Test");
-
-            },
-            'Ping': function() {
-                socket.emit("call", "Pin");
-
-            },
-            'Administrator Control': function() {
-                socket.emit("call", "Admin");
-
-            },
-            'Come here': function() {
-                socket.emit("call", "Come here");
-
-            }
-        };
-
-        // Add our commands to annyang
-        annyang.addCommands(commands);
-
-        // Start listening. You can call this here, or attach this call to an event, button, etc.
-        annyang.start();
-    }
+    $("html").click(function(){
+        socket.emit("call", "click");
+    });
 </script>
 </html>

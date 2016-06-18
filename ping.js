@@ -33,6 +33,7 @@ io.on('connection', function(socket){
     socket.on('call', function(message){
         io.emit("ping", message);
         console.log(message + "");
+        socket.removeAllListeners('call', message);
     });
 
 });
